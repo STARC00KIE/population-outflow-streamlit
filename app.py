@@ -1218,7 +1218,7 @@ def render_docs_tab(
             {"label": "Git", "url": "https://github.com/outflow-project/population-outflow"},
             {"label": "보고서", "url": "https://drive.google.com/file/d/12XRVuKOucmzVNWLxbsJVoCGfMXDYNS31/view?usp=sharing"},
             {"label": "WBS", "url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vRb9ohd88EGHGt8LsJhzMdrWoJuaOZsXOY50SoAreutAd5NDPouQTa1Y0wSdAIevUNgAa5AMlqC9Rm8/pubhtml?gid=1115838130&single=true"},
-            {"label": "발표자료", "url": ""},
+            {"label": "발표자료", "url": "https://docs.google.com/presentation/d/10bqHERb-hyQEzKjZllR_fyYHVa4wPBuD/edit?usp=sharing&ouid=117865314287515560815&rtpof=true&sd=true"},
         ]
 
     mode = st.radio("모드 선택", ["보기"], horizontal=True, key=k("mode"))
