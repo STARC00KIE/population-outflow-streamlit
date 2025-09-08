@@ -1216,12 +1216,12 @@ def render_docs_tab(
     if "docs_links" not in st.session_state:
         st.session_state["docs_links"] = [
             {"label": "Git", "url": "https://github.com/outflow-project/population-outflow"},
-            {"label": "보고서", "url": ""},
-            {"label": "WBS", "url": ""},
+            {"label": "보고서", "url": "https://drive.google.com/file/d/12XRVuKOucmzVNWLxbsJVoCGfMXDYNS31/view?usp=sharing"},
+            {"label": "WBS", "url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vRb9ohd88EGHGt8LsJhzMdrWoJuaOZsXOY50SoAreutAd5NDPouQTa1Y0wSdAIevUNgAa5AMlqC9Rm8/pubhtml?gid=1115838130&single=true"},
             {"label": "발표자료", "url": ""},
         ]
 
-    mode = st.radio("모드 선택", ["보기", "편집"], horizontal=True, key=k("mode"))
+    mode = st.radio("모드 선택", ["보기"], horizontal=True, key=k("mode"))
 
     if mode == "편집":
         # 자유롭게 행 추가/삭제 가능한 에디터
