@@ -1,6 +1,7 @@
 # 지역 청년 인구 유출 분석 대시보드
 
-> **데모**: https://population-outflow.streamlit.app\
+> **데모**: https://population-outflow.streamlit.app
+
 > **GitHub**: https://github.com/outflow-project/population-outflow
 
 ## 📌 프로젝트 개요
