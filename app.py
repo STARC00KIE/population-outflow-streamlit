@@ -49,7 +49,7 @@ st.set_page_config(
 PROJECT_META = {
     "title": "지역사회 활력 회복을 위한 청년 인구 유출 요인 분석",
     "subtitle": "2020–2023년 시군구 단위 분석과 정책 시나리오",
-    "period": "202.07–2025.09",
+    "period": "2025.07–2025.09",
     "unit": "시군구 229개",
     "target": "청년 순이동률(순유출/순유입)",
     "models": ["ElasticNet", "XGBoost"],
