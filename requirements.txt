@@ -8,3 +8,4 @@ streamlit-folium
 folium
 shap
 scikit-learn
+xgboost
